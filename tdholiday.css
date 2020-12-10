@@ -42,7 +42,7 @@ h6 {
 }
 
 .section {
-  height: 80%;
+  height: 95%;
   background: #293744;
   color: #899eb5;
 }
@@ -66,7 +66,7 @@ h6 {
 // ==========================================================
 
 // $frame-count: 8;
-$offset-val: 150;*/
+$offset-val: 175;*/
 
 .viewer {
 /*  // CSS ONLY EXAMPLE
@@ -74,12 +74,12 @@ $offset-val: 150;*/
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  max-width: 300px;
+  max-width: 350px;
   width: 100%;
   background-image: url(https://drive.google.com/uc?id=17GcpriXDsvmJL5uE5X90jWJw2-Ph8CT-);
   background-repeat: no-repeat;
   background-position: 0 50%;
-  background-size: 2400px;
+  background-size: 2800px;
 }
 
 /*@for $i from 1 through $frame-count {
@@ -89,39 +89,36 @@ $offset-val: 150;*/
 }*/
 
 
-
 .viewer.frame1 {
-  background-position: -300px 50%;
+  background-position: -350px 50%;
 }
 
 .viewer.frame2 {
-  background-position: -600px 50%;
+  background-position: -700px 50%;
 }
 
 .viewer.frame3 {
-  background-position: -900px 50%;
+  background-position: -1050px 50%;
 }
 
 .viewer.frame4 {
-  background-position: -1200px 50%;
+  background-position: -1400px 50%;
 }
 
 .viewer.frame5 {
-  background-position: -1500px 50%;
+  background-position: -1750px 50%;
 }
 
 .viewer.frame6 {
-  background-position: -1800px 50%;
-}
-
-.viewer.frame7 {
   background-position: -2100px 50%;
 }
 
-.viewer.frame8 {
-  background-position: -2400px 50%;
+.viewer.frame7 {
+  background-position: -2450px 50%;
 }
 
+.viewer.frame8 {
+  background-position: -2800px 50%;
 
 
 
