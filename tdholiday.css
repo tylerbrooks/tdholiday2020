@@ -1,7 +1,7 @@
 /*// DEMO GLOBALS
 // ==========================================================
 */
-body {
+html, body {
 	padding:0;
 	margin:0;
 	height:100%;
@@ -49,7 +49,7 @@ $offset-val: 150;*/
 .viewer {
 /*  // CSS ONLY EXAMPLE
   // animation: drink-coffee 1s steps($frame-count) infinite;*/
-  height: 800px;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
   max-width: 300px;
