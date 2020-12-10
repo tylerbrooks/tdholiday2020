@@ -1,0 +1,88 @@
+/*// DEMO GLOBALS
+// ==========================================================
+*/
+html,
+body {
+padding:0;
+  margin:0;
+  height:100%;
+}
+
+body {
+  width:100%;
+}
+
+/*
+// UTILITIES
+// ==========================================================*/
+
+.header {
+  color: white;
+  font-size: 50px;
+}
+
+.section {
+  height: 10%;
+  background: #293744;
+  color: #899eb5;
+}
+
+.scene {
+  height: 100%;
+  width: 100%;
+  background: #EAEAEA;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+/*// REQUIRED STYLES
+// ==========================================================
+
+// $frame-count: 8;
+$offset-val: 150;*/
+
+.viewer {
+/*  // CSS ONLY EXAMPLE
+  // animation: drink-coffee 1s steps($frame-count) infinite;*/
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  width: 100%;
+  background-image: url(
+https://drive.google.com/uc?id=17GcpriXDsvmJL5uE5X90jWJw2-Ph8CT-);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 2400px;
+}
+
+/*@for $i from 1 through $frame-count {
+  .viewer.frame#{$i} {
+    background-position: -(($i * $offset-val) * 2) + px 50%;
+  }
+}*/
+
+
+/*
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
+
+.viewer {
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 120px;
+  width: 100%;
+  background-image: url(
+https://drive.google.com/uc?id=1fatLNRbY13vjxyyZ3NydO6RZm-WSNJVv);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 600px;
+}
+
+}*/
